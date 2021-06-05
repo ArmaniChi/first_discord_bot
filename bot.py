@@ -5,7 +5,7 @@ bot = commands.Bot(command_prefix='!')
 
 @bot.command(name="idea", help="Get a side project idea")
 async def idea(ctx):
-    await ctx.send("Ideas are hard")
+    await ctx.send("Ideas are hard!")
     await ctx.send("Worry not, I think you should...")
 
     topics = ['chat bot', 'cli', 'game', 'web bot', 'browser extension', 'api', 'web interface']
